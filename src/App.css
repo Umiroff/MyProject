@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 1440px;
+    height: 72px;
+    border: 1px solid;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav_main{
+    width: 1208px;
+    height: 72px;
+    border: 1px solid;
+    position: absolute;
+    left: 116px;
+}
+
+.nav_main_logo{
+    position: absolute;
+    top: 20px;
+}
+
+.nav_main_btn{
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top: 16px;
+    left: 180px;
+    background-color: rgba(112, 192, 91, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav_main_search{
+    position: absolute;
+    left: 360px;
+    top: 16px;
+    width: 360px;
+    height: 40px;
+    border: 1px solid rgba(112, 192, 91, 1);
+}
+.nav_main_search_inp{
+    position: absolute;
+    left: 20px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.search-icon{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+
+.nav_liked{
+    width: 65px;
+    height: 50px;
+    position: absolute;
+    top: 11px;
+    left: 750px;
+}
+
+.nav_liked-text{
+    text-decoration: none;
+    color: red;
+}
